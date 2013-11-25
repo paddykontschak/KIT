@@ -1,0 +1,110 @@
+Programmieren Uebungsblatt 1
+===
+
+Patrick Kontschak - Matrikelnummer: 1781195
+
+Nennen Sie diese Datei um in TeilA.md und oeffnen Sie sie in einem Markdown
+Preview Programm oder bei gist.github.com (evtl. in einer Secret Gist) um
+diese Datei in einem schoeneren Layout zu lesen. Um es Ihnen ganz leicht
+zu machen koennen Sie auch gerne [meine eigene Gist](https://gist.github.com/paddykontschak/5a4a70bda141dbbd4e3f) anschauen.
+
+A.1 - One by one
+---
+
+Error:
+
+    OneByOne.java:4: error: bad operand types for binary operator '/'
+      System.out.println(one / 1);
+                             ^
+      first type:  String
+      second type: int
+    1 error
+
+Beschreibung:
+
+Die Variabel "one" wird in der Klasse als String deklariert und in der Print
+Methode versuchen wir den String durch einen Integer (1) zu teilen. Logischerweise
+koennen wir keinen String mit einem Integer, Float oder aehnlichen numerischen
+Typen mathematisch verarbeiten.
+
+Loesung:
+
+Wir muessen lediglich `String one = "1";` zu `int one = 1;` aendern.
+
+A.2 - A Million Squared
+---
+
+Error:
+
+    1000000 * 1000000 = -727379968
+
+Beschreibung:
+
+Das Ergebnis von einer Millionen multipliziert mit einer Millionen ist eine
+Zahl zu groß fuer den Integer Typen. Da das Programm bereits die positive Grenze
+des Integers erreicht hat laeuft die Rechnung weiter vom negativen Bereich,
+daher ist das Ergebnis eine negative Zahl.
+
+Loesung:
+
+Wir aendern alle Integers zu Longs (`int a = 1000000;` zu `long a = 1000000L;`).
+
+A.3 - Fragments of a Dozen
+---
+
+Error:
+
+    12 % 11 = 1
+    12 % 10 = 2
+    12 % 9 = 3
+    12 % 8 = 4
+    12 % 7 = 5
+    12 % 6 = 0
+    12 % 5 = 2
+    12 % 4 = 0
+    12 % 3 = 0
+    12 % 2 = 0
+    12 % 1 = 0
+    Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at FragmentsOfADozen.main(FragmentsOfADozen.java:16)
+
+Beschreibung:
+
+Die Methode versucht in der letzten Rechnung den Rest von 12 geteilt durch 0 zu
+erreichnen. Man kann jedoch nichts durch 0 teilen, daher schmeisst die Methode
+eine Exception.
+
+Loesung:
+
+Wir aendern `int div = 12;` zu `int div = 13;`.
+
+A.4 - Bytes You
+---
+
+Error:
+
+    BytesYou.java:5: error: possible loss of precision
+            byte c = a * b;
+                       ^
+      required: byte
+      found:    int
+    1 error
+
+Beschreibung:
+
+Die Multiplikation von a und b ergibt eine Zahl die zu gross fuer den Byte Typen
+ist.
+
+Loesung:
+
+Wir aendern `byte c = a * b;` zu `int byte c = a * b;`.
+
+A.5 - To Be Precise ...
+
+Output:
+
+    true
+
+Beschreibung:
+
+Die Rechnung ist 1.0E300 * 1.0E20 = Infinity. Infinity = 1 / 0.0 = true.
