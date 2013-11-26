@@ -28,9 +28,9 @@
 
 ### Beachten Sie die folgenden Fristen:
 
-1.Abgabe der Einverständniserklärung bis spätestens 04.11.2013
-2.Erste Anmeldung im Praktomaten bis spätestens 04.11.2013
-3.Anmeldung zum Übungsschein im Studierendenportal bis spätestens 23.12.2013
+1. Abgabe der Einverständniserklärung bis spätestens 04.11.2013
+2. Erste Anmeldung im Praktomaten bis spätestens 04.11.2013
+3. Anmeldung zum Übungsschein im Studierendenportal bis spätestens 23.12.2013
 
 ### Abgabemodalitäten
 
