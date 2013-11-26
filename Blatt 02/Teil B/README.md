@@ -21,7 +21,7 @@ Fügen Sie die oben beschriebenen Attribute an passender Stelle hinzu und überl
 Erstellen Sie für jede Klasse mindestens einen Konstruktor.
 Modellieren Sie Farbe und Geschlecht als enum, wobei die Enumeration Farbe mindestens drei Werte umfassen soll.
 
-> Nichts. Oder was?
+> **Nichts. Oder was?**
 > 
 > Welche Möglichkeiten gibt es einen leeren Eintrag zu modellieren? Erklären Sie warum Sie sich für Ihren Weg entschieden haben und schreiben Sie die Antwort als Kommentar ins Programm.
 
@@ -31,7 +31,7 @@ Modellieren Sie Farbe und Geschlecht als enum, wobei die Enumeration Farbe minde
 
 Fügen Sie der Klasse `Friendbook` die Methode `getMostPopularColor()` hinzu, die die beliebteste Farbe zurückgibt.
 
-> Schon wieder Nichts!
+> **Schon wieder Nichts!**
 > 
 > Was machen Sie, wenn es noch keine Einträge im Freundschaftsbuch gibt? Und was, wenn mehrere Farben gleich beliebt sind? Schreiben Sie auch hier Ihre Antwort als Kommentar ins Programm.
 
