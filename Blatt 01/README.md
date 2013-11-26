@@ -1,3 +1,6 @@
+Die [Abgabemodalitäten](https://github.com/paddykontschak/KIT/wiki/Abgabemodalit%C3%A4ten) beachten!
+-----
+
 ## A Java - Compiler und Interpreter (5 Punkte)
 
 Im folgenden sollen Sie kurze Programmbeispiele auf ihrem Computer kompilieren und ausführen.
