@@ -22,7 +22,7 @@ Geben Sie die Ergebnisse auf der Konsole aus.
 
 > **Neues Werkzeug in der Kiste**
 > 
-> Welche Vorteile ergeben sich aus der Verwendung von Konstruktoren und set-Methoden? Schreiben Sie Ihre Antwort als Kommentar in die Datei RoundAndRound.java.
+> Welche Vorteile ergeben sich aus der Verwendung von Konstruktoren und `set`-Methoden? Schreiben Sie Ihre Antwort als Kommentar in die Datei `RoundAndRound.java`.
 
 ### A.2 Getter
 
@@ -33,4 +33,4 @@ Konvertieren Sie auf analoge Weise die Klassen `Cone` und `RoundAndRound` zu `Co
 
 > **Getter und Setter**
 >
-> Vergleichen Sie die beiden Lösungen aus Teil A.1 und A.2. Was ist der Vorteil von Ansatz A.2? Schreiben Sie Ihre Antwort als Kommentar in die Datei RoundAndRound2.java
+> Vergleichen Sie die beiden Lösungen aus Teil A.1 und A.2. Was ist der Vorteil von Ansatz A.2? Schreiben Sie Ihre Antwort als Kommentar in die Datei `RoundAndRound2.java`.
