@@ -114,3 +114,7 @@ Das Objekt `cone1` bekommt die Grundfläche `circle1` zugewiesen.
 Das Objekt `cone2` bekommt die Grundfläche `circle2` zugewiesen.
 Beide Objekte erhalten eine Höhe von 10:3.
 Berechnen Sie die Werte der verbleibenden Attribute mithilfe von Methoden der Klasse `Math` und geben Sie die Ergebnisse auf dem Bildschirm aus.
+
+------
+
+### Note: 10/10
