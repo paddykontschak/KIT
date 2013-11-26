@@ -1,10 +1,10 @@
-> Die [Abgabemodalitäten](https://github.com/paddykontschak/KIT/wiki/Abgabemodalit%C3%A4ten) beachten!
-
 ## A Java - Compiler und Interpreter (5 Punkte)
 
 Im folgenden sollen Sie kurze Programmbeispiele auf ihrem Computer kompilieren und ausführen.
 Dabei kommt es manchmal zu Compiler- oder Laufzeitfehlern, oder einfach zu unerwartetem Verhalten.
 Beschreiben Sie das Problem, das Sie erkennen, und erklären Sie jeweils dessen Ursache und falls möglich wie Sie es beheben würden.
+
+Bitte beachten Sie die [Abgabemodalitäten](https://github.com/paddykontschak/KIT/wiki/Abgabemodalit%C3%A4ten).
 
 ### A.1 One by one
 
