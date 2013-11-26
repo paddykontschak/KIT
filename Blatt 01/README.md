@@ -1,5 +1,4 @@
-Die [Abgabemodalitäten](https://github.com/paddykontschak/KIT/wiki/Abgabemodalit%C3%A4ten) beachten!
------
+> Die [Abgabemodalitäten](https://github.com/paddykontschak/KIT/wiki/Abgabemodalit%C3%A4ten) beachten!
 
 ## A Java - Compiler und Interpreter (5 Punkte)
 
