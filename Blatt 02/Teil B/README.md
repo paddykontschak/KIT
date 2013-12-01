@@ -57,3 +57,7 @@ Dann werden folgende Berechnungsschritte durchgeführt:
 Das Ergebnis ergibt sich dann aus dem Wert von *d0*∈{0...6}, wobei die 0 für Sonntag steht, die 1 für Montag, usw. bis zur 6, welche für Samstag steht.
 
 Testen Sie Ihre Implementierung, indem Sie der Klasse `Birthdate` eine `main`-Methode hinzufügen, die für zwei von Ihnen frei gewählte Geburtstage den Wochentag berechnet und in Textdarstellung ausgibt.
+
+------
+
+### Note: 2/10
