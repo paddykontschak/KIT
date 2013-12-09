@@ -26,7 +26,6 @@ class Matrix {
           rows = m;
           columns = n;
           values = new double[rows][columns];
-          return values;
         }
 
         /**
