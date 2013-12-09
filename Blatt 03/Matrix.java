@@ -3,7 +3,7 @@
  * The index of the top-left value is always (0,0) 
  * and that of the bottom-right corner is (m-1,n-1). 
  * It supports selected manipulation functions and matrix operations.
- * @author <enter your name here>
+ * @author Patrick Kontschak
  * @version <enter version here>
  */
 class Matrix {
@@ -12,6 +12,8 @@ class Matrix {
          * the first index represents the row and
          * the second index represents the column.
          */
+        int rows;
+        int columns;
         double[][] values;
 
         /**
@@ -21,6 +23,10 @@ class Matrix {
          * @param n the number of columns of the matrix
          */
         Matrix(int m, int n) {
+          rows = m;
+          columns = n;
+          values = new double[rows][columns];
+          return values;
         }
 
         /**
@@ -30,6 +36,16 @@ class Matrix {
          * @param value the value to be set at row <code>i</code> and column <code>j</code>
          */
         void put(int i, int j, double value) {
+          rows = i;
+          columns = j;
+          values = new double[rows][columns];
+          int a;
+          int b;
+          for (a = 0; a < rows; a++) {
+            for (b = 0; b < columns; b++) {
+              values[a][b] = value;
+            }
+          }
         }
 
         /**
@@ -39,6 +55,7 @@ class Matrix {
          * @return the value of the matrix at row i and column j
          */
         double get(int i, int j) {
+          return values[i][j];
         }
 
         /**
@@ -46,6 +63,7 @@ class Matrix {
          * @return the height of the matrix
          */
         int getNumberOfRows() {
+          return rows;
         }
 
         /**
@@ -53,6 +71,7 @@ class Matrix {
          * @return the width of the matrix
          */
         int getNumberOfColumns() {
+          return columns;
         }
 
         /**
@@ -65,6 +84,17 @@ class Matrix {
          * <code>null</code> otherwise
          */
         Matrix times(Matrix factor) {
+          if (rows == factor.rows && columns == factor.columns) {
+            Matrix result = new Matrix(rows, columns);
+            double[][] d = new double[rows][columns];
+            for (int i = 0; i < rows; ++i) {
+              for (int j = 0; j < columns; ++j) {
+                d[i][j] = values[i][j] + factor.values[i][j];
+              }
+            }
+            return result;
+          }
+          return null;
         }
 
         /**
@@ -73,5 +103,14 @@ class Matrix {
          * @return this matrix transposed
          */
         Matrix transpose() {
+          Matrix t = new Matrix(columns, rows);
+          int i;
+          int j;
+          for (i = 0; i < rows; i++) {
+            for (j = 0; j < columns; j++) {
+              t.values[j][i] = this.values[i][j];
+            }
+          }
+          return t;
         }
 }
